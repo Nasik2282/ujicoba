@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:opsz,wght@8..30,700&family=Poppins:ital,wght@0,500;0,600;1,600;1,700&display=swap");
+.my_name {
+  font-family: "Poppins";
+  font-style: normal;
+  /* font-weight: 700; */
+  font-size: 75px;
+  line-height: 100px;
+  /* identical to box height, or 133% */
+
+  color: #ffffff;
+}
+
+.my_name span {
+  color: #38cedd;
+}
+
+.description {
+  width: 100%;
+  font-family: "Poppins";
+  font-style: normal;
+  /* font-weight: 700; */
+  /* font-size: 20px; */
+  line-height: 25px;
+  /* or 125% */
+
+  text-align: justify;
+
+  color: #ffffff;
+}
+
+.education {
+  font-family: "Poppins";
+  font-style: normal;
+  /* font-weight: 700; */
+  /* font-size: 35px; */
+  /* line-height: 35px; */
+  /* identical to box height, or 286% */
+
+  color: #110e2d;
+}
+
+.school {
+  font-family: "Poppins";
+  font-style: normal;
+  /* font-weight: 700;
+  font-size: 20px; */
+  line-height: 35px;
+  /* identical to box height, or 125% */
+
+  text-align: justify;
+
+  color: #110e2d;
+}
+
+.school {
+}
+
+.portfolio {
+  font-family: "Poppins";
+  font-style: normal;
+  /* font-weight: 700;
+  font-size: 50px;
+  line-height: 100px; */
+  /* identical to box height, or 200% */
+
+  color: #fafafa;
+}
+
+.my_design {
+  font-family: "Poppins";
+  font-style: normal;
+  /* font-weight: 700;
+  font-size: 25px;
+  line-height: 35px; */
+  /* identical to box height, or 140% */
+
+  color: #fafafa;
+}
+
+.description_Design {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 10;
+  font-size: 15px;
+  line-height: 20px;
+  /* or 100% */
+
+  text-align: justify;
+
+  color: #fafafa;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  background: #fafafa;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+.box_2 {
+  width: 400px;
+  height: 162px;
+  background: #1a2a6c;
+  border-radius: 20px;
+}
+
+box:hover {
+  background: #000;
+}
+
+@media all and (max-width: 320px) {
+  .my_name {
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 10px;
+  }
+  .description {
+    text-align: center;
+    font-size: 7px;
+    width: 100%;
+    line-height: 7px;
+    margin-top: -20px;
+  }
+
+  .education {
+    margin-left: 20px;
+    font-size: 10px;
+    line-height: 0px;
+  }
+
+  .school {
+    margin-left: 20px;
+    font-size: 7px;
+    line-height: 10px;
+  }
+  .portfolio {
+    font-size: 15px;
+    line-height: 10px;
+  }
+  .my_portfolio {
+    justify-content: center;
+  }
+  .box {
+    width: 200px;
+    height: 200px;
+    background: #fafafa;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .box_2 {
+    width: 200px;
+    height: 100px;
+    background: #1a2a6c;
+    border-radius: 10px;
+    margin-top: -25px;
+  }
+
+  .my_design {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height, or 140% */
+
+    color: #fafafa;
+  }
+
+  .description_Design {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 10;
+    font-size: 9px;
+    line-height: 10px;
+    /* or 100% */
+
+    text-align: justify;
+
+    color: #fafafa;
+  }
+}
